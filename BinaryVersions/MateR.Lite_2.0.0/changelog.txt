@@ -1,0 +1,14 @@
+This is MateR-2.0.0 without the TrainSel dependency.
+
+The differences with respect to the full MateR package are the following:
+
+1) It is no longer required to have TrainSel installed, making MateR.Lite compatible with the latest R versions and removong the need for TrainSel license keys.
+
+2) The function GenomicMatingMT() had the following arguments removed:
+2.1) opt_type (now only the Greedy algorithm is supported)
+2.2) initsol
+2.3) control (this argument was for TrainSel hyperparameters only, no longer needed)
+2.4) Username_TrainSel
+2.5) Password_TrainSel
+
+3) The PostOpt() function was completely removed, as it depends on TrainSel to perform optimization
