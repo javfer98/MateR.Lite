@@ -1,1 +1,26 @@
 # MateR.Lite
+ 
+<img src="images/Hex_MtR.png" alt="MateR hex sticker"
+     style="width:200px;height:auto;" align="right" />
+
+
+Genomic Mating package. Optimize mating plans using genomic information to maximize genetic gain, within-family variance, and genetic diversity. Supports polyploids, multi-trait optimization, additive and dominance effects, directional dominance (inbreeding and heterosis), and testers.
+
+MateR.Lite is a version of MateR that does not depend on the TrainSel package. Therefore, it has access to less optimization algorithms, but it is easier to install, avoids compatibility issues and does not require TrainSel license keys.
+
+Documentation and examples of MateR usage are available in the Vignette.
+
+<br>
+
+<br>
+
+
+## Installation
+
+Please, see Installation.txt for instructions on how to install MateR.
+
+Make sure you have the TrainSel package installed. More details in https://github.com/TheRocinante-lab/TrainSel
+
+## Citation: 
+
+Fernandez-Gonzalez, J., Metwally, S. M., & Isidro y Sanchez, J. (2025). MateR: a novel framework for computing the usefulness criterion and applying genomic mating. bioRxiv, 2025-09.
